@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="./frontend/public/favicon.svg" width="120" alt="KodeBattle Logo" />
   <h1>⚔️ KodeBattle</h1>
   <p><strong>1v1 Real-Time Competitive Coding Platform</strong></p>
   <p>
