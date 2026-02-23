@@ -1,28 +1,57 @@
-# BGC – BattleGround for Coders
+<div align="center">
+  <img src="./frontend/public/favicon.svg" width="120" alt="KodeBattle Logo" />
+  <h1>⚔️ KodeBattle</h1>
+  <p><strong>1v1 Real-Time Competitive Coding Platform</strong></p>
+  <p>
+    <a href="https://kodebattle.vercel.app/"><strong>Live Demo</strong></a>
+    <a href="#-getting-started"><strong>Getting Started</strong></a>
+  </p>
+</div>
 
-A real-time 1v1 competitive coding platform inspired by Codeforces and esports-style matchmaking.
+---
 
-## Features
-- Difficulty-based matchmaking (Easy / Medium / Hard)
-- ELO-based ranking system and global leaderboard
-- Real-time battles using WebSocket-based rooms
-- Synchronized timers and live code submission
-- Private rooms for friend battles
-- User profiles, match history, and performance statistics
-- Secure authentication and session management
-- Modern esports-style UI built with React and Tailwind CSS
+## 🚀 Overview
 
-## Tech Stack
-Frontend: React.js, Tailwind CSS  
-Backend: Node.js, Express, WebSockets  
-Database: Firebase, MongoDB  
+**KodeBattle** is an adrenaline-fueled platform designed to test your Data Structures, Algorithms, and coding knowledge under high pressure. Challenge coders around the globe to real-time 1v1 battles, climb the Elo-based global leaderboard, unlock stylish achievements, and prove you are the fastest coder in the arena.
 
-## Status
-Ongoing development – building scalable real-time infrastructure and battle evaluation pipeline.
+---
 
-## License & Copyright
+## ✨ Features
 
-© 2026 Ashish Patil. All rights reserved.
+- ⚡ **Real-Time 1v1 Battles** — Pair up instantly via WebSocket matchmaking and race to solve coding algorithms and outputs faster than your opponent.
+- 📈 **KOD Rating System** — Win battles to climb the ranks. The rating system dynamically graphs your historical performance directly on your profile.
+- 🤝 **Play with Friends** — Create private lobbies and invite your friends via direct shareable links to settle who the better programmer is.
+- 🏆 **Achievements & Medals** — Unlock beautifully designed achievement cards based on win streaks, rating milestones, and fast solves. Export them instantly as PNGs to share on LinkedIn!
+- 💻 **In-Browser IDE** — Write code directly in the browser with syntax highlighting and automatic evaluation using execution engines.
+- 🔒 **Firebase Authentication** — Secure social login with Google and email providers, seamlessly tied to your personal profile.
+- 📱 **Mobile Responsive Design** — Clean, Apple-inspired "glassmorphic" UI built mobile-first so you can check leaderboards and stats on the go.
 
-This project and its source code are the intellectual property of Ashish Patil.  
-Unauthorized copying, distribution, or use of this software, in whole or in part, without explicit permission is prohibited.
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+
+- **Framework:** [React.js](https://react.dev/) built with [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Real-time Comms:** [Socket.io Client](https://socket.io/)
+- **Charts/Graphs:** [Recharts](https://recharts.org/)
+
+**Backend**
+
+- **Server:** [Node.js](https://nodejs.org/) & [Express.js](https://expressjs.com/)
+- **Real-time Comms:** [Socket.io](https://socket.io/)
+- **Database:** [Firebase Firestore](https://firebase.google.com/docs/firestore)
+
+---
+## 📜 License
+Distributed under the MIT License. See `LICENSE` for more information.
+<div align="center">
+    <i>Built with passion by <a href="https://www.linkedin.com/in/ashishpatil2005/">Ashish Patil</a></i>
+</div>
+
+
+<div align="center">
+  <i>Built with passion by <a href="https://www.linkedin.com/in/ashishpatil2005/">Ashish Patil</a></i>
+</div>
