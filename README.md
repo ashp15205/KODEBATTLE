@@ -7,7 +7,7 @@
 
   <br/>
 
-  <a href="https://buymeacoffee.com/kodebattle">
+  <a href="https://buymeacoffee.com/kodebattle" target="_blank">
     <img src="https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
   </a>
 
