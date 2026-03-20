@@ -15,9 +15,9 @@
 
 ## What is KodeBattle?
 
-KodeBattle is a real-time 1v1 platform where you compete head-to-head on DSA questions under strict time pressure. No long contests, no passive solo practice — just you, an opponent at your level, and 5 minutes on the clock.
+KodeBattle is a real-time, 1v1 competitive DSA quiz platform where you compete head-to-head on algorithmic problems under strict time pressure. Think of it as **Chess.com meets LeetCode** — but instead of writing long blocks of code, you're answering high-quality questions that test your pattern recognition, complexity analysis, and debugging skills in 5-minute bursts.
 
-It's built for developers and students who want to train the skill that actually matters in interviews: **thinking clearly under pressure**.
+It's built for developers and students who want to train the skill that actually matters in technical interviews: **thinking clearly and accurately under pressure**.
 
 ---
 
@@ -25,11 +25,13 @@ It's built for developers and students who want to train the skill that actually
 
 | | |
 |---|---|
-| ⚔️ **Real-Time 1v1 Battles** | Live duels powered by WebSockets, matched by KOD Rating |
-| 📈 **KOD Rating System** | Platform-native ranking that updates instantly after every match |
-| 🤝 **Private Rooms** | Create invite-only matches and challenge friends directly |
-| 🏆 **Achievements** | Unlock milestones based on win streaks, rating growth, and performance |
-| 🔒 **Authentication** | Google and email login via Firebase Auth |
+| ⚔️ **Real-Time 1v1 Battles** | Live matchmaking powered by WebSockets with real-time opponent progress tracking. |
+| 📈 **KOD Rating System** | 8-tier competitive ranking (Unranked → Legendary Grandmaster) that updates instantly after every match. |
+| 🛡️ **Anti-Cheat Integrity** | Mandatory fullscreen enforcement and violation tracking (3 strikes = forfeit) ensures fair play. |
+| 🤝 **Social & Friends** | Add friends, track their online status, and challenge them directly to private battle rooms. |
+| 🏆 **Achievements & Streaks** | Unlock 12+ unique achievements and maintain win/login streaks to climb the leaderboard. |
+| 📊 **Deep Analytics** | Activity heatmaps, Codeforces-style rating graphs, and detailed battle history on public profiles. |
+| 🔒 **Authentication** | Secure one-click Google and email login via Firebase Auth. |
 
 ---
 
@@ -37,21 +39,22 @@ It's built for developers and students who want to train the skill that actually
 
 | | KodeBattle ⚔️ | LeetCode | Codeforces |
 |---|---|---|---|
-| **Format** | Instant 1v1 Battles | Solo Practice | Scheduled Contests |
-| **Time per Session** | ~5 Minutes | 1.5+ Hours | 2+ Hours |
-| **Rating Updates** | After Every Match | After 4-5 Days | After 24-48 hrs |
-| **Barrier to Entry** | None (no IDE setup) | Moderate | High |
+| **Match Format** | Instant 1v1 Battles | Solo Practice | Scheduled Contests |
+| **Questions** | DSA Quiz Patterns | Full Code Implementation | Complex Problem Solving |
+| **Time per Session** | ~5 Minutes | 60–90+ Minutes | 2+ Hours |
+| **Rating Updates** | Instant (After Every Match) | Weekly | After 24–48 Hours |
+| **Anti-Cheat** | Fullscreen Enforcement | None | Plagiarism Detection |
 | **Gamification** | Ratings, Streaks, Achievements | Badges, Coins | Ranks |
 
 ---
 
 ## Tech Stack
 
-**Frontend** — React.js (Vite), Tailwind CSS, Framer Motion, Recharts, Socket.io Client
+**Frontend** — React 19 (Vite), Tailwind CSS 4, Framer Motion, Recharts, Socket.io Client
 
-**Backend** — Node.js, Express.js, Socket.io
+**Backend** — Node.js, Express.js, Socket.io (deployed on Render)
 
-**Infrastructure** — Firebase (Auth + Firestore), Vercel (Frontend), Render (Backend)
+**Infrastructure** — Firebase (Auth + Firestore), Vercel (Frontend Hosting)
 
 ---
 
@@ -62,5 +65,6 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 ---
 
 <div align="center">
-  <sub>Built by <a href="https://www.linkedin.com/in/ashishpatil2005/">Ashish Patil</a></sub>
+  <sub>Built with precision by <a href="https://www.linkedin.com/in/ashishpatil2005/">Ashish Patil</a></sub>
 </div>
+
